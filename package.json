@@ -1,0 +1,29 @@
+{
+  "name": "unique-object-by",
+  "version": "1.0.0",
+  "description": "Filters an Object or Map by testing entry uniqueness with a callback.",
+  "keywords": [
+    "unique",
+    "object",
+    "map",
+    "filter"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/unique-object-by",
+  "repository": "lamansky/unique-object-by",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "unique-map-by": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "lamansky"
+  }
+}
